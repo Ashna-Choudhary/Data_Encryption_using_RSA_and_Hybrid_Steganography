@@ -168,7 +168,7 @@ def decryptRSA(encrypted_msg):
     return msg
 ##    return encrypted_msg
 ch=0
-Message="LSB Steganography project\n"
+Message="Data_Encryption_using_RSA_and_Hybrid_Steganography\n"
 print('\n'.join('{:^80}'.format(s) for s in Message.split('\n')))
 
 print("\n")
